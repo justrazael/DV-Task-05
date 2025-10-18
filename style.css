@@ -1,0 +1,167 @@
+*{
+  font-family: gantari, Arial;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center; 
+  background-color: #4c8818;
+  height: 5em;
+}
+
+.logo{
+    width: 5em;
+    padding-left: 1em;
+}
+
+.logo:hover {
+  filter: brightness(0.8);      
+  cursor: pointer;              
+  box-shadow: 0 0 8px #1FCA2A;  
+  transition: all 0.2s;
+}
+
+.nav-container ul {
+  display: flex;
+  list-style-type: none;
+  padding: 1em;
+  background-color: #4c8818;
+  padding-left: 3em;
+  font-weight: bold;
+
+}
+
+.nav-container li {
+  display: block;
+  margin-right: 2em; 
+  position: relative;
+}
+
+.nav-container li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: -1em;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0.1em;
+  height: 2em;
+  background: #888; /* Line color */
+}
+
+.nav-container li a{
+    display: block;
+    text-decoration: none;
+    color: white
+}
+
+.nav-container li:hover a{
+   color: #1FCA2A;
+}
+
+body {
+  background-color: #BFE1BF;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+body h1{
+  margin: 1em;
+  font-size: 2em;
+ 
+} 
+
+body p{
+  margin-left: 3em;
+}
+
+footer {
+  background-color: #4c8818;
+  padding-bottom: 1em;
+  width: 100%;
+  height: 2em;
+  margin-top: auto;
+}
+
+footer span{
+  color: white;
+  font-weight: bold;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.footer-left {
+  text-align: left;
+  padding-left: 2em;
+  padding-top: 1em;
+}
+
+.footer-right {
+  text-align: right;
+  padding-top: 1em;
+  padding-right: 2em;
+}
+
+/*Television.html specific styles*/
+.content-center {
+  max-width: 50em;        
+  margin: 0 auto;       
+  margin-top: 1em;   
+  margin-bottom: 1em;
+  border-radius: 1em;
+  text-align: center;      
+  padding: 2em;       
+  box-shadow: 0 4px 20px #799b79; 
+}
+
+.content-center img{
+  width: 100%;
+  border-radius: 0.5em;
+}
+
+.content-center h3{
+  font-size: 1.5em;
+  text-align: justify;
+  margin-left: 1em;
+}
+
+.content-center h3 + p{
+  text-align: justify;
+  margin-left: 1em;
+}
+
+body h1{
+  margin: 1em;
+  font-size: 2em;
+  text-align: center;
+}
+
+.chart-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: center;  /* Center the charts horizontally */
+  align-items: center;      /* Center the charts vertically */
+  margin: 1em;
+  max-width: 100%; /* Prevents container from stretching too wide */
+}
+
+#scatter-plot, #donut-chart, #bar-chart, #line-chart {
+  flex: 1;
+  width: 100%;
+    /* Set a fixed height for consistency */
+  border: 1px solid #1FCA2A;
+  display: flex;
+  justify-content: center;  /* Center the content horizontally inside the div */
+  align-items: center;      /* Center the content vertically inside the div */
+  box-sizing: border-box;   /* Ensure padding and borders do not affect width/height */
+}

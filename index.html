@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Home Website">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Razael Jikos Gidiman">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<script src="navbar.js"></script>
+
+<header>    
+    <div class="nav-container">
+        <a href="index.html">
+          <img src="images/logo2.png" alt="Logo" class="logo">
+        </a>
+    </div>    
+</header>
+<body>
+    <h1>D3 Charts Dashboard - TV Power Consumption</h1>
+    <div class="chart-container">
+        <div id="scatter-plot"></div>
+        <div id="donut-chart"></div>
+        <div id="bar-chart"></div>
+        <div id="line-chart"></div>
+    </div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="scatterplot.js"></script>
+    <script src="DonutChart.js"></script>
+    <script src="barChart.js"></script>
+    <script src="lineChart.js"></script>
+</body>
+<footer>
+    <div class="footer-content">
+      <span class="footer-left">© 2025 Razael Jikos Gidiman</span>
+      <span class="footer-right">Generated using GenAI</span>
+    </div>
+</footer>
+</html>

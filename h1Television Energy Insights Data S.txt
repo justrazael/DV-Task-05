@@ -1,0 +1,23 @@
+<h1>Television Energy Insights: Data Story </h1>
+      <p>The following are insights from the Australian Government’s Energy Rating dataset on Televisions. It is to help
+        Australian consumers to choose the most affordable, energy-efficient and good size of a TV</p>
+    <h2>Chart 1: What are the most common and available TV screen in Australia?</h2>
+      <img src="images/Chart1.png" alt="Bar chart">
+      <p>Most common TVs in Australia is LCD (LED) while OLED is the least common.</p>
+    <h2>Chart 2: What screen sizes are the most popular?</h2>
+      <img src="images/Chart2.png" alt="Bar chart">
+      <p>Most common screen size is 55 inches, followed by 65 and 75 inches.</p>
+    <h2>Chart 3: Which brands populate the TV market?</h2>
+      <img src="images/Chart3.png" alt="Bar chart">
+      <p>Samsung Electronics, Kogan and LG are the top 3 brands that dominate the market.</p>
+    <h2>Chart 4: What screen technology uses the most power?</h2>
+      <img src="images/Chart4.png" alt="Bar chart">
+      <p>LCD uses the least power while OLED uses the most power.</p>
+    <h2>Chart 5: Does screen size affect the power usage?</h2>
+      <img src="images/Chart5.png" alt="Scatter plot">
+      <p>It shows a relationship that shows that the bigger the screen size, the more power it uses.</p>
+    <h2>Chart 6: Does a bigger screen size TVs mean a higher star rating?</h2>
+      <img src="images/Chart6.png" alt="Scatter plot">
+      <p>Does not show a relationship, points are widely spread out, indicating that larger TVs do not necessarily receive higher ratings</p>
+    <h3>Conclusion</h3>
+      <p>For the best choice, consumers should consider a 55-inch LCD or LCD (LED) TV from Samsung Electronics, Kogan, or LG, as these models not only perform well but also consume the least amount of power</p>
